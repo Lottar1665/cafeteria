@@ -9,24 +9,24 @@ export function Navbar() {
     <nav className="border-b bg-white">
       <div className="container flex h-16 items-center justify-between px-4">
         <Link className="flex items-center gap-2" href="/">
-          <Image alt="" src="/img/navbar/logo_coffe.svg" width={150} height={30}/>
+          <Image alt="" src="/img/navbar/logo_coffe.svg" width={150} height={30} className="w-[50px] md:w-[150px]"/>
         </Link>
         <div className="flex items-center gap-6">
-          <Link className="text-sm font-medium" href="#">
+          <Link className="text-xs md:text-sm font-medium" href="#">
             About Us
           </Link>
-          <Link className="text-sm font-medium" href="#">
+          <Link className="text-xs md:text-sm font-medium" href="#">
             Our Product
           </Link>
-          <Link className="text-sm font-medium" href="#">
+          <Link className="text-xs md:text-sm font-medium" href="#">
             Delivery
           </Link>
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center md:gap-4">
           <div className="relative">
-            <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
+            <Search className="mx-1 md:absolute md:left-2.5 md:top-2.5 h-4 w-4 text-muted-foreground" />
             <Input
-              className="pl-8"
+              className="hidden md:flex pl-8"
               placeholder="Search..."
               type="search"
             />

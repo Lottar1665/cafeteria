@@ -5,7 +5,7 @@ export function SubscribeForm() {
   return (
     <section className="py-16">
       <div className="container px-4">
-        <div className="relative overflow-hidden rounded-3xl bg-black p-8 text-white">
+        <div className="relative w-[] overflow-hidden rounded-3xl bg-black p-8 text-white">
           <div className="relative z-10 mx-auto max-w-2xl text-center">
             <h2 className="mb-4 text-3xl font-bold">Subscribe to get 50% discount price</h2>
             <div className="flex gap-4">

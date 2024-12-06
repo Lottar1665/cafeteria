@@ -23,9 +23,9 @@ export function Hero() {
           </div>
           <div className="relative">
 
-            <div className="relative h-[416px] w-[416px] rounded-full">
+            <div className="relative md:h-[416px] md:w-[416px] rounded-full">
 
-            <div className="absolute top-10 -translate-y-1/2 translate-x-1/4 rounded-3xl bg-white p-4 shadow-lg mb-2 text-lg font-semibol border-8 border-gray-800[.50] ">
+            <div className="absolute right-60 top-10 -translate-y-1/2 translate-x-1/4 rounded-3xl bg-white p-4 shadow-lg mb-2 text-lg font-semibol border-8 border-gray-800[.50] ">
 
             <div className="flex items-center gap-2 ">Cappuccino</div>
             
@@ -34,10 +34,9 @@ export function Hero() {
                 <div className="flex items-center gap-2 bg-white">
                   <Badge>4.8 ★</Badge>
                 </div>
+                
               </div>
-              
-              <span className="absolute top-80 right-80 h-[69px] w-[155px] -translate-y-1/2 translate-x-1/4 rounded-3xl bg-white p-4 shadow-lg mb-2 text-lg font-semibol border-8 border-gray-800[.50]">18K</span>
-
+              <span className="absolute flex justify-center items-center top-72 right-60 md:top-80 md:right-80 h-[69px] w-[155px] -translate-y-1/2 translate-x-1/4 rounded-3xl bg-white p-4 shadow-lg mb-2 text-lg font-semibol border-8 border-gray-800[.50]">18K</span>
               <Image
                 alt="Cappuccino"
                 width={300}
@@ -45,7 +44,7 @@ export function Hero() {
                 className="absolute left-1/2 top-40 h-[300px] w-[300px] -translate-x-1/2 -translate-y-1/2 rounded-full object-cover"
                 src="/img/hero/hero.png"
               />
-              <Image alt="" width={416} height={416} src="/img/hero/herobg.png"/>
+              <Image alt="" width={416} height={416} src="/img/hero/herobg.png"/>              
             </div>
           </div>
         </div>
