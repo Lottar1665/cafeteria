@@ -1,5 +1,4 @@
 import { Card, CardContent } from "@/app/components/ui/card"
-import { Badge } from "./ui/badge"
 import { Button } from "@/app/components/ui/button"
 import { Plus } from 'lucide-react'
 import type { MenuItem } from "@/app/types/menu"
